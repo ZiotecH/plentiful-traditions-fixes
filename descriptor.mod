@@ -1,4 +1,4 @@
-name="Plentiful Traditions 3.x"
+name="Plentiful Traditions 3.x - Modified"
 dependencies={
 	"advancedascension"
 	"UI Overhaul 1080p Plus"
@@ -13,4 +13,3 @@ tags={
 }
 picture="thumbnail.jpg"
 supported_version="3.*"
-remote_file_id="1311725711"
