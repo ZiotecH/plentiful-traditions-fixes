@@ -5,6 +5,22 @@ tr_plentiful_biogenesis_adopt = {
 	modifier = {
 		category_biology_research_speed_mult = 0.2
 	}
+
+	tradition_swap = {
+		name = tr_plentiful_biogenesis_machine_adopt
+		inherit_effects = no
+		inherit_icon = yes
+		inherit_name = no
+		trigger = {
+			has_authority = auth_machine_intelligence
+		}
+		modifier = {
+			category_biology_research_speed_mult = 0.2
+		}		
+		weight = {
+			factor = 1
+		}
+	}
 	
 	ai_weight = {
 		factor = 10

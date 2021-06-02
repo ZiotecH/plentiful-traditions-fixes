@@ -51,6 +51,17 @@ tradition_plentiful_biogenesis = {
 		"tr_plentiful_biogenesis_4"
 		"tr_plentiful_biogenesis_5"
 	}
+	tradition_swap = {
+		name = tradition_plentiful_biogenesis_machine
+		adoption_bonus = "tr_plentiful_biogenesis_machine_adopt"
+		finish_bonus = "tr_plentiful_biogenesis_machine_finish"
+		trigger = {
+			has_authority = auth_machine_intelligence
+		}
+		weight = {
+			factor = 1
+		}
+	}
 }
 
 tradition_plentiful_faith = {

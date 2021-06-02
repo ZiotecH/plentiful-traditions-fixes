@@ -1,0 +1,8 @@
+reload text
+clear
+reload text
+exit
+quit
+reload text
+finish_research
+reload text
