@@ -252,7 +252,7 @@ tr_plentiful_biogenesis_adopt_desc:0 "$tradition_plentiful_biogenesis_desc$\n\n$
 tr_plentiful_biogenesis_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$mod_category_biology_research_speed_mult$§! increased by §G+20%§!."
 
 tr_plentiful_biogenesis_finish:0 "Biogenesis Traditions Finished"
-tr_plentiful_biogenesis_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_plentiful_biogenesis_adopt$ will have the following effects;\n\n§Y$species_trait_points_add$§! increased by §G+3§!\n§Y$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$§! decreased by §G-20%§!.\n£district£ §Y$district_farming_plural$§! provide §Y1§! additional £housing£ §Y$MOD_PLANET_HOUSING_ADD$§!\n£district£ §Y$district_farming_plural$§! provide §Y1§! additional £job_farmer£ §Y$job_farmer$§! job.\n\n"
+tr_plentiful_biogenesis_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_plentiful_biogenesis_adopt$ will have the following effects;\n\n§Y$species_trait_points_add$§! increased by §G+3§!\n§Y$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$§! decreased by §G-20%§!.\n§Y$district_farming_plural$§! provide §Y1§! additional £housing£ §Y$MOD_PLANET_HOUSING_ADD$§! and §Y1§! additional £job_farmer£ §Y$job_farmer$§! job.\n\n"
  
 tr_plentiful_biogenesis_1:0 "Evolutionary convergence"
 tr_plentiful_biogenesis_1_desc:0 "§Y$mod_planet_pops_organics_food_upkeep_mult$§! decreased by §G-15%§! and §Y$mod_planet_livestock_food_produces_add$§! increased by §G+6§!."
@@ -550,7 +550,7 @@ tr_plentiful_aspiration_4_desc:0 "§HUnlocks Building:§! £building  $building_
 tr_plentiful_aspiration_4_delayed:0 "Let others observe ysuccess and strive to overcome repeated failures."
 
 tr_plentiful_aspiration_5:0 "Due Diligence"
-tr_plentiful_aspiration_5_desc:0 "§Y$MOD_COUNTRY_TRUST_GROWTH$§! increased by §G+5%§! for every §Y1.000§! (and its factors of 2) £energy §YEnergy§! banks have in stock. This can stack by up to §Y6§! times for a total of §G+30%§! at §Y32.000§! £energy §YEnergy§!."
+tr_plentiful_aspiration_5_desc:0 "§Y$MOD_COUNTRY_TRUST_GROWTH$§! increased by §G+5%§! for every §Y1000§! (and its factors of 2) £energy §YEnergy§! banks have in stock. This can stack by up to §Y6§! times for a total of §G+30%§! at §Y32000§! £energy §YEnergy§!."
 tr_plentiful_aspiration_5_delayed:0 "Trust and approval accelerate growth and contributes to profit, vision and strategy."
 
 # Aspiration Swapped
@@ -728,7 +728,7 @@ tr_plentiful_mutagenesis_3_desc:0 "§Y$MOD_SHIP_HULL_REGEN_ADD_PERC$§! and §Y$
 tr_plentiful_mutagenesis_3_delayed:0 "The carefully constructed mutagens that we added to mighty ships have given fleet wildly differing regenerative properties."
 
 tr_plentiful_mutagenesis_4:0 "Blight"
-tr_plentiful_mutagenesis_4_desc:0 "§HUnlocks Building:§! £building  $building_plentiful_traditions_pillar_of_affliction$, a planet unique building that increases the planet's £food  §YFood§! output."
+tr_plentiful_mutagenesis_4_desc:0 "§HUnlocks building:§! £building£  §Y$building_plentiful_traditions_pillar_of_affliction$§!, a planet unique building that increases the planet's £food£ §YFood§! output."
 tr_plentiful_mutagenesis_4_delayed:0 "There is no need for others to waste sources of energy on reproduction, as they too are or will become an ingredient to the collective."
 
 tr_plentiful_mutagenesis_5:0 "Breeding Pool"
@@ -771,11 +771,11 @@ tr_plentiful_industry_2_desc:0 "§Y$MOD_COUNTRY_ADMIN_CAP_MULT$§! increased by 
 tr_plentiful_industry_2_delayed:0 "Industrialized administrative ships may not have all the latest features, but you get what you pay for."
 
 tr_plentiful_industry_3:0 "Crystalline Guidance Systems"
-tr_plentiful_industry_3_desc:0 "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§! decreased by §G-30%§!. Additionally §Y$MOD_PLANET_HOUSING_ADD$§! and §HFoundry- and Miners Jobs§! are increased by §G+1§! in $district_mining$ and $district_industrial$."
+tr_plentiful_industry_3_desc:0 "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§! decreased by §G-30%§!.\n§Y$district_industrial_plural$§! provide §Y1§! additional £housing£ §Y$MOD_PLANET_HOUSING_ADD$§! and §Y1§! additional £job£ §Y$job_foundry$§! job.\n§Y$district_mining_plural$§! provide §Y1§! additional £housing£ §Y$MOD_PLANET_HOUSING_ADD$§! and §Y1§! additional £job£ §Y$job_miner$§! job."
 tr_plentiful_industry_3_delayed:0 "Resettlement doesn't require ships with beautiful rooms, the best cryo chambers, good nutrition and the latest media. Also you could live in $district_mining$."
 
 tr_plentiful_industry_4:0 "Beam-Focused Metallurgy"
-tr_plentiful_industry_4_desc:0 "§Y$mod_station_gatherers_minerals_produces_mult$§! increased by §G+10%§! and §HUnlocks Building:§! £building  $building_plentiful_traditions_purification_facility$, a planet unique building that increases the planet's £minerals §YMinerals§! output."
+tr_plentiful_industry_4_desc:0 "§Y$mod_station_gatherers_minerals_produces_mult$§! increased by §G+10%§!.\n§HUnlocks Building:§! £building£ §Y$building_plentiful_traditions_purification_facility$§!, a planet unique building that increases the planet's £minerals §YMinerals§! output."
 tr_plentiful_industry_4_delayed:0 "Specialized drills that use beam-focused heat are needed to access minerals that would otherwise be too costly to extract."
 
 tr_plentiful_industry_5:0 "Creative Accounting"
@@ -941,7 +941,7 @@ tr_plentiful_defence_finish:0 "Defense Traditions finished"
 tr_plentiful_defence_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nArmies start with §G100§! §Y$MOD_ARMY_STARTING_EXPERIENCE_ADD$§!.\n§Y$mod_planet_structures_cost_mult$§! decreased by  §G+10%§!.\n§Y$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$§! increased by §G+10%§!.\n\n"
 
 tr_plentiful_defence_1:0 "Precise armor plates"
-tr_plentiful_defence_1_desc:0 "The §Y$MOD_SHIP_HULL_ADD$§! of ships increases (Corvette 100 destroyer 200 cruiser 500 battleship 800 military station small 500)."
+tr_plentiful_defence_1_desc:0 "Corvette §Y$MOD_SHIP_HULL_ADD$§! §G+100§!\nDestroyer §Y$MOD_SHIP_HULL_ADD$§! §G+200§!\nCruiser §Y$MOD_SHIP_HULL_ADD$§! §G+500§!\nBattleship §Y$MOD_SHIP_HULL_ADD$§! §G+800§!\nDefense Platform §Y$MOD_SHIP_HULL_ADD$§! §G+500§!"
 tr_plentiful_defence_1_delayed:0 "For protection against enemies, it is important to equip ships and defense platforms with additional armor plates."
 
 tr_plentiful_defence_2:0 "Deep operation"
@@ -957,7 +957,7 @@ tr_plentiful_defence_4_desc:0 "§Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§! increases by
 tr_plentiful_defence_4_delayed:0 "By selecting the right troops, no enemy can harm us."
 
 tr_plentiful_defence_5:0 "Bunkermentalität"
-tr_plentiful_defence_5_desc:1 "Access to £building §YZitadom§!."
+tr_plentiful_defence_5_desc:1 "§HUnlocks building:§! £building£ §YZitadom§!."
 tr_plentiful_defence_5_delayed:0 "No one can take this fortress, which is bigger and better fortified than the fattest citadel. \n\nRequires technology £society£ §M$tech_global_defense_grid$§!."
 
 # Defence buildings
