@@ -528,7 +528,7 @@ tradition_plentiful_aspiration:0 "Aspiration"
 tradition_plentiful_aspiration_desc:0 "There is little sense in success, without others to share it with."
 tr_plentiful_aspiration_adopt:0 "Aspiration Traditions"
 tr_plentiful_aspiration_adopt_desc:0 "$tradition_plentiful_aspiration_desc$\n\n$tr_plentiful_aspiration_adopt_effect$\n\n$tr_plentiful_aspiration_finish_effect$"
-tr_plentiful_aspiration_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\nWhenever we construct §YMining Stations§! that produce £energy §YEnergy§!, we gain bonus  £energy  §YEnergy§! equal to §Y0.5§! times monthly £energy  §YEnergy§!. This effect only works once per location."
+tr_plentiful_aspiration_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\nWhenever we construct a §YMining Station§! that produces £energy£ §YEnergy§!, we gain bonus £energy£ §YEnergy§! equal to §Y50%§! of our £energy£ §Y$mod_country_energy_produces_mult$§!. This effect only works once per location."
 
 tr_plentiful_aspiration_finish:0 "Aspiration Traditions Finished"
 tr_plentiful_aspiration_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_plentiful_aspiration_adopt$ increases the £trade_value£ §Y$MOD_TRADE_VALUE_MULT$§! production of £pop Pops by §G+5%§!.\n\n§HUnlocks Building:§! £building  $building_plentiful_traditions_trading_terminal$, which allows the use of the §Y$plentiful_traditions_plentiful_deeds$§! planetary edict."
@@ -556,7 +556,7 @@ tr_plentiful_aspiration_5_delayed:0 "Trust and approval accelerate growth and co
 # Aspiration Swapped
 tr_plentiful_aspiration_gestalt_adopt:0 "Aspiration"
 tr_plentiful_aspiration_gestalt_adopt_desc:0 "$tradition_plentiful_aspiration_desc$\n\n$tr_plentiful_aspiration_gestalt_adopt_effect$\n\n$tr_plentiful_aspiration_gestalt_finish_effect$"
-tr_plentiful_aspiration_gestalt_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\nWhenever we construct §YMining Stations§! that produce £energy §YEnergy§!, we gain bonus  £energy  §YEnergy§! equal to §Y0.5§! times monthly £energy  §YEnergy§!. This effect only works once per location."
+tr_plentiful_aspiration_gestalt_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\nWhenever we construct a §YMining Station§! that produces £energy£ §YEnergy§!, we gain bonus £energy£ §YEnergy§! equal to §Y50%§! of our £energy£ §Y$mod_country_energy_produces_mult$§!. This effect only works once per location."
 
 tr_plentiful_aspiration_gestalt_finish:0 "Aspiration Traditions Finished"
 tr_plentiful_aspiration_gestalt_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_plentiful_aspiration_adopt$ increases the §Y$mod_planet_jobs_complex_drone_produces_mult$§! £pop_cat_complex_drone£ by §G+10%§!.\n\n"
@@ -667,7 +667,7 @@ tr_plentiful_experimentalism_adopt_desc:0 "$tradition_plentiful_experimentalism_
 tr_plentiful_experimentalism_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\nWhen empire is at §GPeace§!, £physics  §Y$MOD_COUNTRY_PHYSICS_TECH_RESEARCH_SPEED$§! increases by §G+10%§! but when at §RWar§! decreases by §R-15%§! instead."
 
 tr_plentiful_experimentalism_finish:0 "Experimentalism Traditions Finished"
-tr_plentiful_experimentalism_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_plentiful_experimentalism_adopt$ allows §YScientist Leaders§! to gain extra £energy  §YEnergy§! on a §Ylevel up§! equaling §Y1§! times monthly income."
+tr_plentiful_experimentalism_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_plentiful_experimentalism_adopt$ allows §YScientist Leaders§! to gain extra £energy£ §YEnergy§! on a §Ylevel up§! equaling §Y100%§! of our £energy£ §Y$mod_country_energy_produces_mult$§!."
  
 tr_plentiful_experimentalism_1:0 "Keepers of Knowledge"
 tr_plentiful_experimentalism_1_desc:0 "§HUnlocks Building:§! £building  $building_plentiful_traditions_experimental_weapons_facility$, a planet unique building that increases the planet's  £physics  §YPhysics§! output. \n\nRequires technology £physics£ §M$tech_basic_science_lab_3$§!. \nRequires technology £engineering£ §M$tech_mine_rare_crystals$§!."
@@ -738,7 +738,7 @@ tr_plentiful_mutagenesis_5_delayed:0 "The galaxy's sources of energy are meant t
 # Mutagenesis Swapped
 tr_plentiful_mutagenesis_adopt_machine:0 "Mutagenese"
 tr_plentiful_mutagenesis_adopt_machine_desc:0 "$tradition_plentiful_mutagenesis_desc$\n\n$tr_plentiful_mutagenesis_adopt_machine_effect$\n\n$tr_plentiful_mutagenesis_finish_effect$"
-tr_plentiful_mutagenesis_adopt_machine_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§HUnlocks Building:§!\n£building  $building_plentiful_traditions_clone_vats$, a planet unique building that increases the planet's §Y$MOD_POP_GROWTH_SPEED$§! of £planet_pop_organics£ by §G+50%§!."
+tr_plentiful_mutagenesis_adopt_machine_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§HUnlocks Building:§! £building£ §Y$building_plentiful_traditions_clone_vats$§!, a planet unique building that increases the planet's §Y$MOD_POP_GROWTH_SPEED$§! by §G+50%§!."
 
 # Mutagenesis buildings
 building_plentiful_traditions_pillar_of_affliction:0 "Pillar of Affliction"
